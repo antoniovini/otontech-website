@@ -11,16 +11,16 @@ export const Container = styled.div `
     align-items: center;
 `
 
-export const Logo = styled.img`
+export const Logo = styled.img `
     height: 100px;
     margin-bottom: 40px;
 `;
 
-export const CardsContainer = styled.div`
+export const CardsContainer = styled.div `
     display: flex;
 `;
 
-export const By = styled.span`
+export const By = styled.span `
     user-select: none;
     margin-top: 20px;
     font-family: 'Anonymous Pro', monospace;
@@ -29,7 +29,7 @@ export const By = styled.span`
     text-shadow: 0 0 5px #111;
 `;
 
-export const Hearth = styled.span`
+export const Hearth = styled.span `
     color: ${Danger()};
 
     &:hover{

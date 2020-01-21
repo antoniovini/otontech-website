@@ -14,7 +14,7 @@ export default function MainScreen() {
       <CardsContainer>
         <Card
           height={'330px'}
-          image={require('../../assets/img/vinicius-profile.jpeg')}
+          image={require('../../assets/img/profile.png')}
           title='Antônio Vinicius'
           description='CEO'
           social={[

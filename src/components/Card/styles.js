@@ -32,7 +32,6 @@ export const SocialIcons = styled.div`
 `;
 
 export const Link = styled.a`
-
     color: ${Primary('light')};
     font-size: 1.2em;
 

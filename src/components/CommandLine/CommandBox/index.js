@@ -23,7 +23,7 @@ export default function CommandBox({ height, welcomeMessage='' }) {
 
     // use effect to set focus to input
     useEffect(() => {
-        if(inputRef.current) window.addEventListener('click', () => { inputRef.current.focus() })
+        window.addEventListener('click', () => { if(inputRef.current) inputRef.current.focus() })
     }, [inputRef])
 
     // format line removing ** from text and add color to word
